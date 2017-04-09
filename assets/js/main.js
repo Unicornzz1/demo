@@ -50,11 +50,11 @@ var Cropper = (function() {
 		image.onload = function() {
 		  	var imageOverlay = new Image();
 		  	if ($profileFrame == '1')
-				//imageOverlay.src = 'file:///Users/Surasak/Desktop/application/assets/images/0.png';
-				imageOverlay.src = 'http://www.surasak.ece.engr.tu.ac.th/demo/assets/images/0.png';
+				imageOverlay.src = 'file:///Users/Surasak/Desktop/application/demo/assets/images/0.png';
+				//imageOverlay.src = 'http://www.surasak.ece.engr.tu.ac.th/demo/assets/images/0.png';
 		  	else
-				//imageOverlay.src = 'file:///Users/Surasak/Desktop/application/assets/images/1.png';
-				imageOverlay.src = 'http://www.surasak.ece.engr.tu.ac.th/demo/assets/images/1.png';
+				imageOverlay.src = 'file:///Users/Surasak/Desktop/application/demo/assets/images/1.png';
+				//imageOverlay.src = 'http://www.surasak.ece.engr.tu.ac.th/demo/assets/images/1.png';
 		  	imageOverlay.onload = function() {
 				ctx.fillStyle = 'white';
 				ctx.fillRect(0, 0, $size, $size);
